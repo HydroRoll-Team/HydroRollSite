@@ -20,8 +20,8 @@ export default {
 
 <template>
   <header>
-    <img src="@/assets/Hydroroll-small.svg"
-      alt="Vue logo"
+    <img src="/src/assets/logo_white_trans.png"
+      alt="HydroRoll Logo"
       class="logo"
       width="125" height="125" />
 
