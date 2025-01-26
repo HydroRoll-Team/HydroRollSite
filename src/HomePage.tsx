@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaDiscord } from 'react-icons/fa';
-import { SiPython, SiTypescript, SiReact } from 'react-icons/si';
+// import { FaGithub, FaDiscord } from 'react-icons/fa';
+// import { SiPython, SiTypescript, SiReact } from 'react-icons/si';
 import { Button, Card } from '@nextui-org/react';
 import { ThreeBackground } from './components/ThreeBackground';
 import { StatsCard } from './components/StatsCard';
@@ -33,14 +33,14 @@ const HomePage: React.FC = () => {
               target="_blank"
               as="a"
             >
-              <FaGithub className="mr-2" />
+              {/* <FaGithub className="mr-2" /> */}
               加入 GitHub
             </Button>
             <Button
               className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white"
               size="lg"
             >
-              <FaDiscord className="mr-2" />
+              {/* <FaDiscord className="mr-2" /> */}
               加入 Discord
             </Button>
           </div>
@@ -55,17 +55,17 @@ const HomePage: React.FC = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard
-              icon={<SiPython className="text-4xl text-blue-400" />}
+              icon={<div />}
               title="Python 驱动"
               description="基于 Python 构建，提供灵活且强大的插件系统"
             />
             <FeatureCard
-              icon={<SiTypescript className="text-4xl text-blue-500" />}
+              icon={<div />}
               title="TypeScript 支持"
               description="完整的 TypeScript 类型支持，提供更好的开发体验"
             />
             <FeatureCard
-              icon={<SiReact className="text-4xl text-cyan-400" />}
+              icon={<div />}
               title="现代化框架"
               description="采用现代化的框架设计，支持多平台部署"
             />
