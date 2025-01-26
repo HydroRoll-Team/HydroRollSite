@@ -11,7 +11,6 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white relative overflow-hidden">
       <ThreeBackground />
-      
       {/* Hero Section */}
       <section className="relative z-10 pt-20 pb-32">
         <motion.div
