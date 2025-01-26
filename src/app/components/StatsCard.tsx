@@ -1,5 +1,6 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
+import * as motion from "motion/react-client";
 import { Card } from '@nextui-org/react';
 
 interface StatsCardProps {
